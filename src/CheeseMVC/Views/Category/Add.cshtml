@@ -1,0 +1,9 @@
+@model AddCategoryViewModel
+
+<form asp-controller="Category" asp-action="Add" method="post">
+    <input asp-for="Name" />
+    <label asp-for="Name"></label>
+    <span asp-validation-for="Name"></span>
+    <input type="submit" value="Add Cheese" />
+
+</form>
